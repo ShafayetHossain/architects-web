@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.work-sans-font{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Shered CSS */
+.d1b{
+    font-size: 33px;
+    font-weight: bold;
+    color: #131313;
+
+}
+.d2m{
+    font-weight: 500px;
+    color: #424242;
+
+}
+.d3r{
+    color: #727272;
+}
+.dark1{
+    color: #131313;
+}
+.dark3{
+    color: #727272;
+}
+.orange{
+    color: #FF900E;
+}
+.inner-button{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+                               /* Header Section */
+
+/* Nav Section Start */
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 144, 0, 0.1);
+    padding-top: 37px;
+}
+
+.nav-container{
+    margin: 0px auto;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu>ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.nav-menu>ul>li>a{
+    font-weight: 500;
+    color: #424242;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+/* Nav Section End */
+
+/* Banner Section */
+
+.banner{
+    margin: 0px auto;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+}
+.banner-title{
+    max-width: 646px;
+    margin: 76px auto 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.banner-button{
+    width: 136px;
+    height: 48px;
+    background-color: #FF900E;
+    border-radius: 6px;
+    border: none;
+    margin: 0px auto;
+}
+
+.banner-image>img{
+    margin-top: 38px;
+    width: 100%;
+}
+/* Banner Section End*/
+
+                            /* Header Section*/
+
+
+
+
+
+                            /* Main Section*/
+
+
+/* features Section Start*/
+
+.features-container{
+    margin: 63px auto 97px;
+    max-width: 1080px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 54px;
+}
+.features-content{
+    width: 402px;
+}
+.features-content h3{
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.features-content p{
+    margin-bottom: 24px;
+}
+
+.features-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 18px;
+}
+
+.features-images img{
+}
+/* features Section End*/
+
+
+ /* Work Section Start*/
+
+.work-container{
+    width: 1080px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.work-content{
+    flex: 1;
+    padding: 23px;
+}
+.work-header h3{
+    width: 350px;
+    border-left: 4px solid #FF900E;
+    padding-left: 15px;
+}
+.work-header p{
+    margin: 30px auto 30px;
+}
+
+.work-section{
+    width: 440px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 30px #eee9e9;
+}
+
+.work-section p{
+    margin: 5px;
+}
+.work-image{
+    flex: 1;
+}
+.work-image img{
+    width: 100%;
+}
+ /* Work Section End*/
+
+
+
+ /* Facts Section Start*/
+
+.facts-container{
+    width: 1080px;
+    margin: 0px auto;
+}
+
+.facts-content{
+    width: 415px;
+}
+.facts-content p{
+    margin: 18px 0px 75px;
+}
+
+.icon-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-item{
+    width: 180px;
+    height: 160px;
+    border: 1px solid #f8a74a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-item h3{
+margin: 7px auto 7px;
+font-size: 33px;
+font-weight: 600;
+color: #424242;
+
+}
+
+.icon-item p{
+font-size: 15px;
+font-weight: 600;
+color: #727272;
+}
+ /* Facts Section End*/
+
+
+
+  /* Sponspors Section Start*/
+
+.sponspors-content{
+    width: 406px;
+    margin: 135px auto 37px;
+}
+.sponspors-content p{
+    margin-top: 18px;
+
+}
+
+.sponspors-content{
+    text-align: center;
+}
+.sponspors-icon{
+    width: 1080px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+  /* Sponspors Section End*/
+
+
+                             /* Footer Section*/
+
+/* Footer Section Start*/
+
+.footer-container{
+    width: 1080px;
+    height: 75px;
+    margin: 102px auto 50px;
+    background-color: #FFF4E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+/* Footer Section Start*/
+                             /* Footer Section*/
