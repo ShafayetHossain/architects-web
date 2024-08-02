@@ -294,3 +294,48 @@ color: #727272;
 }
 /* Footer Section Start*/
                              /* Footer Section*/
+
+
+                             /* Responsive For Mobile */
+@media screen and (max-width:576px) {
+    .icon-section,
+    .sponspors-icon{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 18px;
+        justify-content: center;
+    }
+
+    .features-container,
+    .nav-container,
+    .work-container
+    {
+        flex-direction: column;
+        gap: 18px;
+    }
+    .work-image img{
+        width: 100%;
+    }
+    .badge{
+        margin-top: -69px;
+        margin-left: 80px;
+    
+    }
+    .features-images{
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+    .footer-container,
+    .work-container,
+    .sponspors-icon,
+    .facts-container,
+    .work-container{
+        width: 100%;
+        text-align: center;
+    }
+    .work-section{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+}
