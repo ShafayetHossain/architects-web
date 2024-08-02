@@ -144,6 +144,27 @@ header{
 
 .features-images img{
 }
+.badge{
+    background-color: #FF900E;
+    border-radius: 6px;
+    border: none;
+    padding: 2rem 2.2rem;
+    margin-top: -69px;
+    margin-left: -69px;
+
+}
+.years{
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.exprience{
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    font-weight: 500;
+
+}
 /* features Section End*/
 
 
